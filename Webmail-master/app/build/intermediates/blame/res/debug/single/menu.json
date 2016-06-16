@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\body_menu.xml",
+        "source": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\src\\main\\res\\menu\\body_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\compose.xml",
+        "source": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\src\\main\\res\\menu\\compose.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\body.xml",
+        "source": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\src\\main\\res\\menu\\body.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\multi_select.xml",
+        "source": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\src\\main\\res\\menu\\multi_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\folder_menu.xml",
+        "source": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\src\\main\\res\\menu\\folder_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\about.xml",
+        "source": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\src\\main\\res\\menu\\about.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\compose_menu.xml",
+        "source": "C:\\Users\\User\\Downloads\\Webmail-master\\Webmail-master\\app\\src\\main\\res\\menu\\compose_menu.xml"
+    }
+]

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.webmail"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.webmail.LoginActivity"
+            android:label="DoCollect" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+"
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="message/rfc822" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.webmail.SettingsActivity"
+            android:label="settings"
+            android:parentActivityName="com.example.webmail.LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.webmail.MainActivity" />
+        </activity>
+
+        <service android:name="com.example.webmail.DownloadAttachment" />
+        <service android:name="com.example.webmail.SendMessage" />
+        <service android:name="com.example.webmail.SendMessage2" />
+        <service android:name="com.example.webmail.SetRead" />
+        <service android:name="com.example.webmail.DeleteMail" />
+        <service android:name="com.example.webmail.DeleteMails" />
+        <service android:name="com.example.webmail.Sync" />
+        <service android:name="com.example.webmail.Fetch" />
+        <service android:name="com.example.webmail.Flag" />
+
+        <receiver android:name="com.example.webmail.NotificationReceiver" >
+            <intent-filter>
+                <action android:name="com.example.webmail.inbox" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.webmail.AboutActivity"
+            android:label="LoginActivity"
+            android:parentActivityName="com.example.webmail.LoginActivity" >
+        </activity>
+        <activity android:name="com.example.webmail.MainActivity" />
+        <activity android:name="com.example.webmail.BodyActivity" />
+    </application>
+
+</manifest>
